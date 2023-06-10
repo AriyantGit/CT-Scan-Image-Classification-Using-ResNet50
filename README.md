@@ -31,10 +31,13 @@ The name "ResNet" stands for "Residual Network," which refers to the use of resi
   <li>Fully Connected Layer: Finally, a fully connected layer is applied to the pooled features to perform the classification task. For ResNet-50, this layer typically consists of 1,000 neurons, corresponding to the number of classes in the ImageNet dataset, which the model was originally trained on.</li>
   <li>Output Layer Softmax Activation: The output of the classification layer is often passed through a softmax activation function, which converts the class probabilities into a normalized distribution, ensuring that the probabilities sum up to 1. This allows for easier interpretation and decision-making.</li>
 </ul>
-![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F54207410%2Fhow-to-split-resnet50-model-from-top-as-well-as-from-bottom&psig=AOvVaw1Mn8Sz6exWkqfLN2wHrEPo&ust=1686499729815000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODG3Z2Luf8CFQAAAAAdAAAAABAJ)
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F54207410%2Fhow-to-split-resnet50-model-from-top-as-well-as-from-bottom&psig=AOvVaw1J9c37bQbDD6A6Dfd90NRP&ust=1686500505430000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODFmY-Ouf8CFQAAAAAdAAAAABAE">
 More information can be found <a href="https://www.mathworks.com/help/deeplearning/ref/resnet50.html#:~:text=ResNet%2D50%20is%20a%20convolutional,%2C%20pencil%2C%20and%20many%20animals.">here</a>
 <br>
-
+<video width="320" height="240" controls>
+  <source src="[movie.mp4](https://github.com/AriyantGit/CT-Scan-Image-Classification-Using-ResNet50/blob/main/covid-19%20resnet50.mp4)" type="video/mp4">
+  
+</video>
 ## How to use Flask App
 <ul>
   <li>Download repo, change to directory of repo, go to command prompt and run <b>pip install -r requirements.txt</b></li>
