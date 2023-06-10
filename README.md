@@ -35,10 +35,10 @@ The name "ResNet" stands for "Residual Network," which refers to the use of resi
 More information can be found <a href="https://www.mathworks.com/help/deeplearning/ref/resnet50.html#:~:text=ResNet%2D50%20is%20a%20convolutional,%2C%20pencil%2C%20and%20many%20animals.">here</a>
 <br>
 <video width="320" height="240" controls>
-  <source src="[movie.mp4](https://github.com/AriyantGit/CT-Scan-Image-Classification-Using-ResNet50/blob/main/covid-19%20resnet50.mp4)" type="video/mp4">
+  <source src="https://github.com/AriyantGit/CT-Scan-Image-Classification-Using-ResNet50/blob/main/covid-19%20resnet50.mp4" type="video/mp4">
   
 </video>
-## How to use Flask App
+# How to use Flask App
 <ul>
   <li>Download repo, change to directory of repo, go to command prompt and run <b>pip install -r requirements.txt</b></li>
   <li>The dataset and models of the repository have been moved to Google Drive due to expiry of my Github LFS. So please download the zip file from <b><a href="https://drive.google.com/file/d/1dA-rdmDmCGa3xxW5KpfLJdo7M54lPcQq/view?usp=sharing">here</a></b>, extract it and replace the above data and models folder with these. Also make sure you have <b>PYTHON V 3.8.5</b>. Other versions might not be supported</li>
@@ -46,7 +46,7 @@ More information can be found <a href="https://www.mathworks.com/help/deeplearni
   <li>Open your web browser and go to <b>127.0.0.1:5000</b> to access the Flask App</li>
 </ul>
 
-## How to use Jupyter Notebooks 
+# How to use Jupyter Notebooks 
 <ul>
   <li>Download my repo and upload the repo folder to your <b>Google Drive</b></li>
   <li>Go to the jupyter notebooks folder in my repo, right click the notebook you want to open and select <b>Open with Google Colab</b>   </li>
